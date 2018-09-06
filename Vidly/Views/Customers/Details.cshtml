@@ -7,3 +7,12 @@
 
 <h2>@Model.Name</h2>
 
+<ul>
+    <li><span>Membership Type:</span>@Model.MembershipType.Name</li>
+    @if (Model.Birthdate.HasValue)
+    {
+        <li><span>Birthdate:</span>@Model.Birthdate.Value.ToShortDateString()</li>
+    }
+
+</ul>
+

@@ -188,9 +188,22 @@
     <Compile Include="Migrations\201809060230020_PopulateNametoMembershipTypes.Designer.cs">
       <DependentUpon>201809060230020_PopulateNametoMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809062157409_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201809062157409_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201809062157409_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809062245050_AddPropertiesToMovie.cs" />
+    <Compile Include="Migrations\201809062245050_AddPropertiesToMovie.Designer.cs">
+      <DependentUpon>201809062245050_AddPropertiesToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809062247386_PopulatesGenres.cs" />
+    <Compile Include="Migrations\201809062247386_PopulatesGenres.Designer.cs">
+      <DependentUpon>201809062247386_PopulatesGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -279,6 +292,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809060230020_PopulateNametoMembershipTypes.resx">
       <DependentUpon>201809060230020_PopulateNametoMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809062157409_AddBirthdateToCustomer.resx">
+      <DependentUpon>201809062157409_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809062245050_AddPropertiesToMovie.resx">
+      <DependentUpon>201809062245050_AddPropertiesToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809062247386_PopulatesGenres.resx">
+      <DependentUpon>201809062247386_PopulatesGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
