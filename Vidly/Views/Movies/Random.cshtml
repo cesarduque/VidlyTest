@@ -18,7 +18,8 @@
         @foreach (var movie in Model)
         {
             <tr>
-                <th scope="row">@movie.Name</th>
+                <td>@movie.Name</td>
+                <td>@movie.Genre.Name</td>
             </tr>
         }
     </tbody>
